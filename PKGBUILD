@@ -1,7 +1,7 @@
 # Maintainer: G.S.V. Prharsha <gsvprharsha@github>
 
 pkgname=raven-grub-darkmatter
-pkgver=1
+pkgver=r11.fc6a87e
 pkgrel=1
 pkgdesc='Darkmatter GRUB Theme for Raven OS'
 arch=('any')
@@ -19,7 +19,7 @@ pkgver() {
 package(){
 	install -dm755 "${pkgdir}"/usr/share/grub/themes/
 	install -Dm644 raven-grub-darkmatter/LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
-	cp -r --no-preserve-ownership raven-grub-darkmatter "${pkgdir}"/usr/share/grub/themes/
+	cp -r raven-grub-darkmatter "${pkgdir}"/usr/share/grub/themes/
 	rm -rf "${pkgdir}"/usr/share/grub/themes/raven-grub-darkmatter/.git
 	rm "${pkgdir}"/usr/share/grub/themes/raven-grub-darkmatter/install.sh
 }
