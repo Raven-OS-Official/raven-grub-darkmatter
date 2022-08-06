@@ -21,7 +21,7 @@ package(){
 	install -Dm644 raven-grub-darkmatter/LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 	cp -r --no-preserve-ownership raven-grub-darkmatter "${pkgdir}"/usr/share/grub/themes/
 	rm -rf "${pkgdir}"/usr/share/grub/themes/raven-grub-darkmatter/.git
-	rm "${pkgdir}"/usr/share/grub/themes/raven-grub-darkmatter/LICENSE
-	rm "${pkgdir}"/usr/share/grub/themes/raven-grub-darkmatter/README.md
+#	rm "${pkgdir}"/usr/share/grub/themes/raven-grub-darkmatter/LICENSE
+#	rm "${pkgdir}"/usr/share/grub/themes/raven-grub-darkmatter/README.md
 	rm "${pkgdir}"/usr/share/grub/themes/raven-grub-darkmatter/install.sh
 }
