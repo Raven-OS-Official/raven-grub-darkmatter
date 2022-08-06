@@ -6,7 +6,7 @@ pkgrel=1
 pkgdesc='Darkmatter GRUB Theme for Raven OS'
 arch=('any')
 url='https://github.com/Raven-OS-Official/raven-grub-darkmatter'
-license ('GPL-3.0')
+license=('GPL-3.0')
 optdepends=('grub-customizer: GUI tool to configure GRUB')
 makedepends=('git')
 source=("git+https://github.com/Raven-OS-Official/raven-grub-darkmatter")
