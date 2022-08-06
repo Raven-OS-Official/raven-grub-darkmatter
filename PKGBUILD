@@ -1,7 +1,7 @@
 # Maintainer: G.S.V. Prharsha <gsvprharsha@github>
 
 pkgname=raven-grub-darkmatter
-pkgver=r11.fc6a87e
+pkgver=r12.b063a97
 pkgrel=1
 pkgdesc='Darkmatter GRUB Theme for Raven OS'
 arch=('any')
